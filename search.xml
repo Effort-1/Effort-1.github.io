@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>解决博客图片加载不出来的问题</title>
+      <link href="2021/04/21/%E8%A7%A3%E5%86%B3%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E4%B8%8D%E5%87%BA%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>2021/04/21/%E8%A7%A3%E5%86%B3%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E4%B8%8D%E5%87%BA%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>让git保存用户名和密码</title>
+      <link href="2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/"/>
+      <url>2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h4 id="1找到-gitconfig-文件"><a href="#1找到-gitconfig-文件" class="headerlink" title="1找到 .gitconfig 文件"></a>1找到 .gitconfig 文件</h4><p><strong>.gitconfig</strong>  配置文件一般在 C&gt;user&gt;（你的用户名）文件夹下</p><p><img src="/2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/gitconfig.png" alt="gitconfig文件"></p><p>如果实在找不到这个文件，就使用这个软件  Everything  去搜索</p><p>附上链接</p><p><a href="https://pan.baidu.com/s/1Go44lMFKWETx8bs9vSqztg">百度云</a></p><p>提取码：6666</p><img src="/2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/everything.png" alt="everything" style="zoom: 50%;"><p>在此目录下打开 git Bash</p><p>运行：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure><p>.gitconfig 文件下就会多了下面的内容</p><p><img src="/2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/credential.png" alt="credential"></p><p>同时该目录下会生成一个 <strong>.git-credentials</strong>  文件，里面保存的有你的用户名和密码</p><p>当你再次向 <strong>github</strong> 提交时你只需要输入一次，后面在提交时就不在需要重新输入</p><p>tips: 后面提交依然会弹出 <strong>GitHub</strong> 用户登录UI窗口，直接点取消就可以了</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用HEXO搭建个人博客(windows)</title>
+      <link href="2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
+      <url>2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h4 id="1-所需工具"><a href="#1-所需工具" class="headerlink" title="1 所需工具"></a>1 所需工具</h4><h4 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h4><p>下载网址:</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;nodejs.org&#x2F;zh-cn&#x2F;</span><br></pre></td></tr></table></figure><h4 id="git"><a href="#git" class="headerlink" title="git"></a>git</h4><p>下载网址：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;git-scm.com&#x2F;downloads</span><br></pre></td></tr></table></figure><p><strong>Typora</strong></p><p>用于编辑你的博文内容</p><p><strong>github账户</strong></p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;github.com&#x2F;</span><br></pre></td></tr></table></figure><p>tips:  记住你的账号和密码</p><h4 id="校验是否安装成功"><a href="#校验是否安装成功" class="headerlink" title="校验是否安装成功"></a>校验是否安装成功</h4><p>以上二个工具下载完成后直接安装然后打开 <strong>cmd</strong> </p><p>分别运行<strong>node -v</strong> 和 <strong>npm-v</strong> 看是否出现版本，如果出现则证明<strong>node</strong>安装成功</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/node.png" alt="node"></p><h4 id="2安装cnpm淘宝镜像"><a href="#2安装cnpm淘宝镜像" class="headerlink" title="2安装cnpm淘宝镜像"></a>2安装cnpm淘宝镜像</h4><p>由于<strong>npm</strong>包管理器在国内下载速度很慢，所以我们可以安装一个淘宝镜像</p><p>运行 </p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>在 <strong>cmd</strong>下运行<strong>cnpm</strong>看是否出现相应指令</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/cnpm.png" alt="cnpm"></p><p>这样就可以用<strong>cnpm</strong>代替<strong>npm</strong>指令</p><h4 id="3-安装hexo框架"><a href="#3-安装hexo框架" class="headerlink" title="3 安装hexo框架"></a>3 安装hexo框架</h4><p>运行</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>进行全局安装，安装后用<strong>hexo-v</strong>版本号，出现则表示安装成功</p><h4 id="4-使用hexo-init初始化博客"><a href="#4-使用hexo-init初始化博客" class="headerlink" title="4 使用hexo init初始化博客"></a>4 使用hexo init初始化博客</h4><p>1、新建一个文件夹<strong>blog</strong>（名字随便取），等会所有博客的内容会全部在这个文件夹下面</p><p>2、进入这个文件夹，然后打开 <strong>git hash</strong>运行 <strong>hexo init</strong>命令开始初始化博客项目</p><p>3、运行 <strong>hexo s</strong> 启动预览你的博客，命令完成后会出现 <a href="http://localhost:4000/">http://localhost:4000</a> 端口，直接ctrl  +  鼠标左键在浏览器中打开，那么到目前为止，博客的初步搭建就完成了</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2.png" alt="博客页面"></p><h4 id="5-新建博文"><a href="#5-新建博文" class="headerlink" title="5 新建博文"></a>5 新建博文</h4><p>1、在 blog目录下打开 <strong>git hash</strong>运行 **hexo n “博文名称”**，那么在你的 source/_posts目录下就有你创建的博文了，你可以使用文本编译器去编辑你的博文，推荐大家使用 Typora</p><p>2、退回到blog目录下</p><p>运行</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>目前只是本地使用，所以你的博客只能在你的电脑访问，那么要想远程访问我们就必须部署到云端， 我们接下来要将博客部署到github上，所以你必须要创建一个github账户</p><h4 id="6-将博客部署到GitHub上"><a href="#6-将博客部署到GitHub上" class="headerlink" title="6 将博客部署到GitHub上"></a>6 将博客部署到GitHub上</h4><p>1、创建一个新的仓库</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E4%BB%93%E5%BA%93.png" alt="仓库"></p><p>注意：你的仓库名必须是 <strong>你的用户名.github.io</strong>，然后直接点击创建，仓库即创建完成</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="创建仓库"></p><p>2、在 blog 目录下安装 <strong>git</strong> 部署插件</p><p>运行：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><p>3、配置  <strong>_config.yml</strong>  文件</p><p>打开 blog 目录下的 <strong>_config.yml</strong> 文件，在文件最底部配置</p><p><img src="/2021/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/%E6%9B%B4%E6%94%B9%E5%8F%82%E6%95%B0.png" alt="更改参数"></p><p>注意： 每个冒号后面必须有一个空格</p><p>4、部署到 <strong>github</strong></p><p>在blog目录下运行</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>部署是会弹出GitHub UI  界面，你需要输入你的用户名和密码，成功后去你的仓库刷新，会看到你部署的博客文件，在网址栏复制你的  <strong>用户名.github.io</strong> 你就可以实现远端访问了</p><p><a href="https://effort-1.github.io/2021/04/21/%E8%AE%A9git%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81/">git 如何保存用户名和密码</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/04/19/hello-world/"/>
+      <url>2021/04/19/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
