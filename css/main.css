@@ -294,7 +294,7 @@ sup > a::before,
   color: #ff4500;
 }
 html {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.02em;
 }
 html,
@@ -927,7 +927,7 @@ label {
   font-weight: bold;
 }
 .markdown-body pre {
-  font-size: 85% !important;
+  font-size: 90% !important;
 }
 .markdown-body pre code {
   overflow-x: auto;

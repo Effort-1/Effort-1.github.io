@@ -111,7 +111,7 @@
     <link href="http://example.com/2021/06/05/%E8%A7%A3%E5%86%B3Echarts%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2021/06/05/%E8%A7%A3%E5%86%B3Echarts%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/</id>
     <published>2021-06-05T15:44:28.000Z</published>
-    <updated>2021-06-06T06:11:05.615Z</updated>
+    <updated>2022-03-23T08:06:40.354Z</updated>
     
     <content type="html"><![CDATA[<h6 id="浏览器发生报错"><a href="#浏览器发生报错" class="headerlink" title="浏览器发生报错"></a>浏览器发生报错</h6><ul><li><p><code>TypeError: Cannot read property &#39;init&#39; of undefined</code>        不能识别  <strong>init</strong>  或未定义</p></li><li><h6 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h6><ul><li><p>导入echarts是要加 * as 不然就会报该错误</p><p><img src="/2021/06/05/%E8%A7%A3%E5%86%B3Echarts%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/Echarts.png" alt="Echarts"></p></li></ul></li></ul>]]></content>
     
