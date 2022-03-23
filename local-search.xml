@@ -194,17 +194,6 @@
   
   
   <entry>
-    <title>友链</title>
-    <link href="/"/>
-    <url>/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>留言板</title>
     <link href="/"/>
     <url>/</url>
@@ -216,7 +205,7 @@
   
   
   <entry>
-    <title>myself</title>
+    <title>友链</title>
     <link href="/"/>
     <url>/</url>
     
@@ -228,6 +217,17 @@
   
   <entry>
     <title>tags</title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>myself</title>
     <link href="/"/>
     <url>/</url>
     
